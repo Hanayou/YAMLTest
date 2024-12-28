@@ -1,49 +1,57 @@
-metadata:
-  title: "Your Title Here"
-  description: "A brief description of the purpose of this file."
-  version: 1.0
-  created_by: "Your Name or Application"
-  created_date: "2024-12-28"  # Use the current date or relevant timestamp
+basic:
+  name: "Samuel Short"
+  role: "Global SE"
+  top_skills:
+    - "Full-Stack Engineer"
+    - "English"
+    
+profile:
+  introduction: "This is some intro text about me :)"
 
-settings:
-  environment: "production"  # Options: development, testing, production
-  debug_mode: false
-  timeout: 30  # Timeout in seconds
+skills:
+  spoken_languages:
+    - "English (Native)"
+    - "Japanese (N1 - Business Level)"
+  programming_langauges:
+    - "HTML"
+    - "CSS"
+    - "JavaScript"
+    - "TypeScript"
+    - "C#"
+    - "C++"
+    - "Python"
+    - "Go"
+  frameworks:
+    - "NodeJS"
+    - "React"
+    - "NextJS"
+    - "Svelte/SvelteKit"
+  databases:
+    - "PostgreSQL"
+    - "MongoDB"
+    - "SQLite"
+  cloud_platforms:
+    - "AWS"
+    - "Azure"
+    - "Vercel"
+  tools:
+    - "Git"
+    - "GitHub"
+    
 
-resources:
-  - name: "Resource1"
-    type: "typeA"
-    enabled: true
-    properties:
-      key1: "value1"
-      key2: "value2"
-  - name: "Resource2"
-    type: "typeB"
-    enabled: false
-    properties:
-      key1: "value3"
-      key2: "value4"
-
-users:
-  admin:
-    username: "admin_user"
-    email: "admin@example.com"
-    permissions:
-      - "read"
-      - "write"
-      - "delete"
-  guest:
-    username: "guest_user"
-    email: "guest@example.com"
-    permissions:
-      - "read"
-
-tasks:
-  - id: 1
-    name: "Initial Task"
-    status: "pending"  # Options: pending, in_progress, completed
-    assigned_to: "admin_user"
-  - id: 2
-    name: "Follow-up Task"
-    status: "in_progress"
-    assigned_to: "guest_user"
+work_history:
+  - name: "TechReis"
+    role: "Global SE"
+    team_size: 3
+    description: "I developed new technologies to improve departmental efficiency."
+    start_date: "2024-09-01"
+    end_date: "" # If an empty string is provided, the UI will replace this with "Current"
+    technologies:
+      - "TypeScript"
+      - "NodeJS"
+      - "Svelte"
+      - "SvelteKit"
+      - "TailwindCSS"
+      - "Vitest"
+      - "Playwright"
+    
