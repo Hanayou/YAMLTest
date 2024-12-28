@@ -1,5 +1,6 @@
 basic:
   name: "Samuel Short"
+  slug: "samuel-short"
   role: "Global SE"
   top_skills:
     - "Full-Stack Engineer"
