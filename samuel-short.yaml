@@ -1,0 +1,49 @@
+metadata:
+  title: "Your Title Here"
+  description: "A brief description of the purpose of this file."
+  version: 1.0
+  created_by: "Your Name or Application"
+  created_date: "2024-12-28"  # Use the current date or relevant timestamp
+
+settings:
+  environment: "production"  # Options: development, testing, production
+  debug_mode: false
+  timeout: 30  # Timeout in seconds
+
+resources:
+  - name: "Resource1"
+    type: "typeA"
+    enabled: true
+    properties:
+      key1: "value1"
+      key2: "value2"
+  - name: "Resource2"
+    type: "typeB"
+    enabled: false
+    properties:
+      key1: "value3"
+      key2: "value4"
+
+users:
+  admin:
+    username: "admin_user"
+    email: "admin@example.com"
+    permissions:
+      - "read"
+      - "write"
+      - "delete"
+  guest:
+    username: "guest_user"
+    email: "guest@example.com"
+    permissions:
+      - "read"
+
+tasks:
+  - id: 1
+    name: "Initial Task"
+    status: "pending"  # Options: pending, in_progress, completed
+    assigned_to: "admin_user"
+  - id: 2
+    name: "Follow-up Task"
+    status: "in_progress"
+    assigned_to: "guest_user"
